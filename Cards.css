@@ -16,7 +16,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background: rgba(26, 26, 31, 0.473);
+    /* background: rgba(26, 26, 31, 0.473); */
     transition: 0.75s;
     border-radius: 20px;
     backdrop-filter: blur(10px);
@@ -43,17 +43,17 @@
     color: #03e9f4;
     text-align: center;
   }
-
+/* 
   .container .box:hover .content {
     color: #111;
   }
-  
+   */
   .container .box .content h2 {
     font-size: 2em;
-    margin-bottom: 10px;
+    margin-bottom: 10px; 
   }
   
-  .container .box:nth-child(1) {
+  /* .container .box:nth-child(1) {
     filter: hue-rotate(240deg);
   }
   
@@ -87,4 +87,4 @@
 
   .container .box:nth-child(10) {
     filter: hue-rotate(270deg);
-  }
+  } */
